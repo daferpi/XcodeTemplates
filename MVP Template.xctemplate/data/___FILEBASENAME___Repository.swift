@@ -11,10 +11,10 @@ protocol ___FILEBASENAMEASIDENTIFIER___RepositoryProtocol {
 class ___FILEBASENAMEASIDENTIFIER___Repository: ___FILEBASENAMEASIDENTIFIER___RepositoryProtocol {
     
      // MARK: - Private Props
-    private let apiClient: ___FILEBASENAMEASIDENTIFIER___ApiClient
+    private let apiClient: ___VARIABLE_productName:identifier___ApiClient
 
     // MARK: - Lifecycle
-    init(apiClient: ___FILEBASENAMEASIDENTIFIER___ApiClient = ___FILEBASENAMEASIDENTIFIER___ApiClient()) {
+    init(apiClient: ___VARIABLE_productName:identifier___ApiClient = ___VARIABLE_productName:identifier___ApiClient()) {
         self.apiClient = apiClient
     }
 }

@@ -7,11 +7,11 @@ import Foundation
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
 
     // MARK: - Private Props
-    private let view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol
-    private let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol
+    private let view: ___VARIABLE_productName:identifier___ViewProtocol
+    private let interactor: ___VARIABLE_productName:identifier___InteractorProtocol
 
     // MARK: - Lifecycle
-    init(view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol, interactor:___FILEBASENAMEASIDENTIFIER___InteractorProtocol) {
+    init(view: ___VARIABLE_productName:identifier___ViewProtocol, interactor:___VARIABLE_productName:identifier___InteractorProtocol) {
         self.view = view
         self.interactor = interactor
     }
