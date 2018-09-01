@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.daferpi.singleMVPApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an MVP Application</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>apiClientName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Api Client Enum</string>
+			<key>Description</key>
+			<string>Name of Api Client Enum</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>ApiClient</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_apiClientName___.swift:comments</string>
+						<string>___VARIABLE_apiClientName___.swift:imports:importFoundation</string>
+						<string>___VARIABLE_apiClientName___.swift:declarations:enum(___VARIABLE_apiClientName___)</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>repositoryName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Repository Class Name</string>
+			<key>Description</key>
+			<string>Name of Repository</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Repository</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_repositoryName___.swift:comments</string>
+						<string>___VARIABLE_repositoryName___.swift:imports:importFoundation</string>
+						<string>___VARIABLE_repositoryName___.swift:declarations:protocol(___VARIABLE_repositoryName___Protocol)</string>
+						<string>___VARIABLE_repositoryName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_repositoryName___Protocol)</string>
+						<string>___VARIABLE_repositoryName___.swift:implementation:declarations:let:property(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>___VARIABLE_repositoryName___.swift:implementation:initializer:initParams(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup(self.apiClient = apiClient)</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>mainClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Main View Controller Class</string>
+			<key>Description</key>
+			<string>Class Name of Main View Controller Class</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MainViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_mainClassName___.swift:comments</string>
+						<string>___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>*:imports:importFoundation</key>
+		<string>import Foundation</string>
+		<key>*:declarations:enum</key>
+		<dict>
+			<key>Beginning</key>
+			<string>enum ___*___ {
+			</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:declarations:protocol</key>
+		<string>protocol ___*___ { }</string>
+		<key>*:implementation:declarations:let:property</key>
+		<string>private let ___*___ </string>
+		<key>*:implementation:initializer:initParams</key>
+		<dict>
+			<key>Beginning</key>
+			<string>init (___*___) {</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:implementation:initializer:initParams:setup</key>
+		<string>___*___</string>
+	</dict>
+</dict>
+</plist>
