@@ -42,10 +42,22 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_apiClientName___.swift:comments</string>
-						<string>___VARIABLE_apiClientName___.swift:imports:importFoundation</string>
-						<string>___VARIABLE_apiClientName___.swift:declarations:enum(___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_apiClientName___.swift:comments</string>
+						<string>data/___VARIABLE_apiClientName___.swift:imports:importFoundation</string>
+						<string>data/___VARIABLE_apiClientName___.swift:declarations:enum(___VARIABLE_apiClientName___)</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>data/___VARIABLE_apiClientName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>data</string>
+							</array>
+							<key>Path</key>
+							<string>data/___VARIABLE_apiClientName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -72,14 +84,26 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_repositoryName___.swift:comments</string>
-						<string>___VARIABLE_repositoryName___.swift:imports:importFoundation</string>
-						<string>___VARIABLE_repositoryName___.swift:declarations:protocol(___VARIABLE_repositoryName___Protocol)</string>
-						<string>___VARIABLE_repositoryName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_repositoryName___Protocol)</string>
-						<string>___VARIABLE_repositoryName___.swift:implementation:declarations:let:property(apiClient:___VARIABLE_apiClientName___)</string>
-						<string>___VARIABLE_repositoryName___.swift:implementation:initializer:initParams(apiClient:___VARIABLE_apiClientName___)</string>
-						<string>___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup(self.apiClient = apiClient)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:comments</string>
+						<string>data/___VARIABLE_repositoryName___.swift:imports:importFoundation</string>
+						<string>data/___VARIABLE_repositoryName___.swift:declarations:protocol(___VARIABLE_repositoryName___Protocol)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_repositoryName___Protocol)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:declarations:let:property(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup(self.apiClient = apiClient)</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>data/___VARIABLE_repositoryName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>data</string>
+							</array>
+							<key>Path</key>
+							<string>data/___VARIABLE_repositoryName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -106,14 +130,26 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_interactorName___.swift:comments</string>
-						<string>___VARIABLE_interactorName___.swift:imports:importFoundation</string>
-						<string>___VARIABLE_interactorName___.swift:declarations:protocol(___VARIABLE_interactorName___Protocol)</string>
-						<string>___VARIABLE_interactorName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_interactorName___Protocol)</string>
-						<string>___VARIABLE_interactorName___.swift:implementation:declarations:let:property(repository:___VARIABLE_repositoryName___)</string>
-						<string>___VARIABLE_interactorName___.swift:implementation:initializer:initParams(repository:___VARIABLE_repositoryName___)</string>
-						<string>___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup(self.repository = repository)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:comments</string>
+						<string>domain/___VARIABLE_interactorName___.swift:imports:importFoundation</string>
+						<string>domain/___VARIABLE_interactorName___.swift:declarations:protocol(___VARIABLE_interactorName___Protocol)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_interactorName___Protocol)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:declarations:let:property(repository:___VARIABLE_repositoryName___)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams(repository:___VARIABLE_repositoryName___)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup(self.repository = repository)</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>domain/___VARIABLE_interactorName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>domain</string>
+							</array>
+							<key>Path</key>
+							<string>domain/___VARIABLE_interactorName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -140,10 +176,22 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_viewName___.swift:comments</string>
-						<string>___VARIABLE_viewName___.swift:imports:importFoundation</string>
-						<string>___VARIABLE_viewName___.swift:declarations:protocol(___VARIABLE_viewName___Protocol)</string>
+						<string>presentation/___VARIABLE_viewName___.swift:comments</string>
+						<string>presentation/___VARIABLE_viewName___.swift:imports:importFoundation</string>
+						<string>presentation/___VARIABLE_viewName___.swift:declarations:protocol(___VARIABLE_viewName___Protocol)</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>presentation/___VARIABLE_viewName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>presentation</string>
+							</array>
+							<key>Path</key>
+							<string>presentation/___VARIABLE_viewName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -170,16 +218,28 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_presenterName___.swift:comments</string>
-						<string>___VARIABLE_presenterName___.swift:imports:importFoundation</string>
-						<string>___VARIABLE_presenterName___.swift:declarations:protocol(___VARIABLE_presenterName___Protocol)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_presenterName___Protocol)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation:declarations:let:property(view:___VARIABLE_viewName___)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation:declarations:let:property(interactor:___VARIABLE_interactorName___)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams(view:___VARIABLE_viewName__, interactor:___VARIABLE_interactorName___)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.view = view)</string>
-						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.interactor = interactor)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:comments</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:imports:importFoundation</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:declarations:protocol(___VARIABLE_presenterName___Protocol)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_presenterName___Protocol)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property(view:___VARIABLE_viewName___Protocol)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property(interactor:___VARIABLE_interactorName___)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams(view:___VARIABLE_viewName___Protocol, interactor:___VARIABLE_interactorName___)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.view = view)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.interactor = interactor)</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>presentation/___VARIABLE_presenterName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>presentation</string>
+							</array>
+							<key>Path</key>
+							<string>presentation/___VARIABLE_presenterName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -206,14 +266,26 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>___VARIABLE_mainClassName___.swift:comments</string>
-						<string>___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController, ___VARIABLE_viewName___)</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:comments</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController, ___VARIABLE_viewName___)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning:super</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>presentation/___VARIABLE_mainClassName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>presentation</string>
+							</array>
+							<key>Path</key>
+							<string>presentation/___VARIABLE_mainClassName___.swift</string>
+						</dict>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
