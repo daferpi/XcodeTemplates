@@ -88,9 +88,9 @@
 						<string>data/___VARIABLE_repositoryName___.swift:imports:importFoundation</string>
 						<string>data/___VARIABLE_repositoryName___.swift:declarations:protocol(___VARIABLE_repositoryName___Protocol)</string>
 						<string>data/___VARIABLE_repositoryName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_repositoryName___Protocol)</string>
-						<string>data/___VARIABLE_repositoryName___.swift:implementation:declarations:let:property(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:declarations:let:property:apiClient(apiClient:___VARIABLE_apiClientName___)</string>
 						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams(apiClient:___VARIABLE_apiClientName___)</string>
-						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup(self.apiClient = apiClient)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup:self.apiClient(self.apiClient = apiClient)</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -134,9 +134,9 @@
 						<string>domain/___VARIABLE_interactorName___.swift:imports:importFoundation</string>
 						<string>domain/___VARIABLE_interactorName___.swift:declarations:protocol(___VARIABLE_interactorName___Protocol)</string>
 						<string>domain/___VARIABLE_interactorName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_interactorName___Protocol)</string>
-						<string>domain/___VARIABLE_interactorName___.swift:implementation:declarations:let:property(repository:___VARIABLE_repositoryName___)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:declarations:let:property:repository(repository:___VARIABLE_repositoryName___)</string>
 						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams(repository:___VARIABLE_repositoryName___)</string>
-						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup(self.repository = repository)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup:self.repository(self.repository = repository)</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -222,11 +222,11 @@
 						<string>presentation/___VARIABLE_presenterName___.swift:imports:importFoundation</string>
 						<string>presentation/___VARIABLE_presenterName___.swift:declarations:protocol(___VARIABLE_presenterName___Protocol)</string>
 						<string>presentation/___VARIABLE_presenterName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_presenterName___Protocol)</string>
-						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property(view:___VARIABLE_viewName___Protocol)</string>
-						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property(interactor:___VARIABLE_interactorName___)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property:view(view:___VARIABLE_viewName___Protocol)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:declarations:let:property:interactor(interactor:___VARIABLE_interactorName___)</string>
 						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams(view:___VARIABLE_viewName___Protocol, interactor:___VARIABLE_interactorName___)</string>
-						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.view = view)</string>
-						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.interactor = interactor)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup:self.view(self.view = view)</string>
+						<string>presentation/___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup:self.interactor(self.interactor = interactor)</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -268,7 +268,7 @@
 					<array>
 						<string>presentation/___VARIABLE_mainClassName___.swift:comments</string>
 						<string>presentation/___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
-						<string>presentation/___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController, ___VARIABLE_viewName___)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController, ___VARIABLE_viewName___Protocol)</string>
 						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
 						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
@@ -306,7 +306,7 @@
 		</dict>
 		<key>*:declarations:protocol</key>
 		<string>protocol ___*___ { }</string>
-		<key>*:implementation:declarations:let:property</key>
+		<key>*:implementation:declarations:let:property:*</key>
 		<string>private let ___*___ </string>
 		<key>*:implementation:initializer:initParams</key>
 		<dict>
@@ -317,7 +317,7 @@
 			<key>Indent</key>
 			<integer>1</integer>
 		</dict>
-		<key>*:implementation:initializer:initParams:setup</key>
+		<key>*:implementation:initializer:initParams:setup:*</key>
 		<string>___*___</string>
 	</dict>
 </dict>
