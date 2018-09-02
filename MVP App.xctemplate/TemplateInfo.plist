@@ -85,6 +85,106 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Interactor Class Name</string>
+			<key>Description</key>
+			<string>Name of Interactor</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Interactor</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_interactorName___.swift:comments</string>
+						<string>___VARIABLE_interactorName___.swift:imports:importFoundation</string>
+						<string>___VARIABLE_interactorName___.swift:declarations:protocol(___VARIABLE_interactorName___Protocol)</string>
+						<string>___VARIABLE_interactorName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_interactorName___Protocol)</string>
+						<string>___VARIABLE_interactorName___.swift:implementation:declarations:let:property(repository:___VARIABLE_repositoryName___)</string>
+						<string>___VARIABLE_interactorName___.swift:implementation:initializer:initParams(repository:___VARIABLE_repositoryName___)</string>
+						<string>___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup(self.repository = repository)</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>View Class Name</string>
+			<key>Description</key>
+			<string>Name of View</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_viewName___.swift:comments</string>
+						<string>___VARIABLE_viewName___.swift:imports:importFoundation</string>
+						<string>___VARIABLE_viewName___.swift:declarations:protocol(___VARIABLE_viewName___Protocol)</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Presenter Class Name</string>
+			<key>Description</key>
+			<string>Name of Presenter</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Presenter</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_presenterName___.swift:comments</string>
+						<string>___VARIABLE_presenterName___.swift:imports:importFoundation</string>
+						<string>___VARIABLE_presenterName___.swift:declarations:protocol(___VARIABLE_presenterName___Protocol)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_presenterName___Protocol)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation:declarations:let:property(view:___VARIABLE_viewName___)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation:declarations:let:property(interactor:___VARIABLE_interactorName___)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams(view:___VARIABLE_viewName__, interactor:___VARIABLE_interactorName___)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.view = view)</string>
+						<string>___VARIABLE_presenterName___.swift:implementation:initializer:initParams:setup(self.interactor = interactor)</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
 			<string>mainClassName</string>
 			<key>Required</key>
 			<true/>
@@ -108,7 +208,7 @@
 					<array>
 						<string>___VARIABLE_mainClassName___.swift:comments</string>
 						<string>___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
-						<string>___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController, ___VARIABLE_viewName___)</string>
 						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 						<string>___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
 						<string>___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
