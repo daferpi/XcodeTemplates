@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.daferpi.singleMVVMApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an MVVM Application</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>apiClientName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Api Client Enum</string>
+			<key>Description</key>
+			<string>Name of Api Client Enum</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>ApiClient</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>data/___VARIABLE_apiClientName___.swift:comments</string>
+						<string>data/___VARIABLE_apiClientName___.swift:imports:importFoundation</string>
+						<string>data/___VARIABLE_apiClientName___.swift:declarations:enum(___VARIABLE_apiClientName___)</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>data/___VARIABLE_apiClientName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>data</string>
+							</array>
+							<key>Path</key>
+							<string>data/___VARIABLE_apiClientName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>repositoryName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Repository Class Name</string>
+			<key>Description</key>
+			<string>Name of Repository</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Repository</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>data/___VARIABLE_repositoryName___.swift:comments</string>
+						<string>data/___VARIABLE_repositoryName___.swift:imports:importFoundation</string>
+						<string>data/___VARIABLE_repositoryName___.swift:declarations:protocol(___VARIABLE_repositoryName___Protocol)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_repositoryName___Protocol)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:declarations:let:property:apiClient(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams(apiClient:___VARIABLE_apiClientName___)</string>
+						<string>data/___VARIABLE_repositoryName___.swift:implementation:initializer:initParams:setup:self.apiClient(self.apiClient = apiClient)</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>data/___VARIABLE_repositoryName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>data</string>
+							</array>
+							<key>Path</key>
+							<string>data/___VARIABLE_repositoryName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Interactor Class Name</string>
+			<key>Description</key>
+			<string>Name of Interactor</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Interactor</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>domain/___VARIABLE_interactorName___.swift:comments</string>
+						<string>domain/___VARIABLE_interactorName___.swift:imports:importFoundation</string>
+						<string>domain/___VARIABLE_interactorName___.swift:declarations:protocol(___VARIABLE_interactorName___Protocol)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_interactorName___Protocol)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:declarations:let:property:repository(repository:___VARIABLE_repositoryName___)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams(repository:___VARIABLE_repositoryName___)</string>
+						<string>domain/___VARIABLE_interactorName___.swift:implementation:initializer:initParams:setup:self.repository(self.repository = repository)</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>domain/___VARIABLE_interactorName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>domain</string>
+							</array>
+							<key>Path</key>
+							<string>domain/___VARIABLE_interactorName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Model Class Name</string>
+			<key>Description</key>
+			<string>Name of Model</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Model</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>domain/entity/___VARIABLE_modelName___.swift:comments</string>
+						<string>domain/entity/___VARIABLE_modelName___.swift:imports:importFoundation</string>
+						<string>domain/entity/___VARIABLE_modelName___.swift:declarations:struct(___VARIABLE_modelName___)</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>domain/entity/___VARIABLE_modelName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>domain</string>
+								<string>entity</string>
+							</array>
+							<key>Path</key>
+							<string>domain/entity/___VARIABLE_modelName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>VieModel Class Name</string>
+			<key>Description</key>
+			<string>Name of VieModel</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>VieModel</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>presentation/___VARIABLE_viewModelName___.swift:comments</string>
+						<string>presentation/___VARIABLE_viewModelName___.swift:imports:importFoundation</string>
+						<string>presentation/___VARIABLE_viewModelName___.swift:declarations:protocol(___VARIABLE_viewModelName___Protocol)</string>
+						<string>presentation/___VARIABLE_viewModelName___.swift:implementation(___FILEBASENAME___: ___VARIABLE_viewModelName___Protocol)</string>
+						<string>presentation/___VARIABLE_viewModelName___.swift:implementation:initializer:initParams()</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>presentation/___VARIABLE_viewModelName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>presentation</string>
+							</array>
+							<key>Path</key>
+							<string>presentation/___VARIABLE_viewModelName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>mainClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Main View Controller Class</string>
+			<key>Description</key>
+			<string>Class Name of Main View Controller Class</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MainViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>presentation/___VARIABLE_mainClassName___.swift:comments</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:imports:importCocoa</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:declarations:let:property:viewModel(viewModel:___VARIABLE_viewModelName___Protocol)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:initializer:initParams(viewModel:___VARIABLE_viewModelName___Protocol)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:initializer:initParams:setup:self.viewModel(self.viewModel = viewModel)</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:viewDidLoad:super</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>presentation/___VARIABLE_mainClassName___.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>presentation/___VARIABLE_mainClassName___.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>presentation</string>
+							</array>
+							<key>Path</key>
+							<string>presentation/___VARIABLE_mainClassName___.swift</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>*:imports:importFoundation</key>
+		<string>import Foundation</string>
+		<key>*:declarations:struct</key>
+		<dict>
+			<key>Beginning</key>
+			<string>struct ___*___ {
+			</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:declarations:enum</key>
+		<dict>
+			<key>Beginning</key>
+			<string>enum ___*___ {
+			</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:declarations:protocol</key>
+		<string>protocol ___*___ { }</string>
+		<key>*:implementation:declarations:let:property:*</key>
+		<string>private let ___*___ </string>
+		<key>*:implementation:initializer:initParams</key>
+		<dict>
+			<key>Beginning</key>
+			<string>init (___*___) {</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:implementation:initializer:initParams:setup:*</key>
+		<string>___*___</string>
+	</dict>
+</dict>
+</plist>
